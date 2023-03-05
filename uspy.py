@@ -33,26 +33,22 @@ print(guests)"""
   #      break
 #print('it"s time to pay')
 
-while True:
-    valuta=input('введите валюту (сом или доллар)')
-    summa=int(input(f'введите сумму которую хотите перевести в {valuta}ы'))
-    
-    if valuta=='сом':
-        total=summa *84.80
-        print(round(total),1)
-    elif valuta=='доллар':
-        total=summa /84.80
-        print(round(total),1)
-    else:
-        print('введите правильные данные')
-        continue
-    
-    choice=input('хотите продолжить?')
-    if choice =='да':
-        continue
-    else:
-        break
-    
+nigga=int(input('enter one number:'))
+try:
+    if nigga!=993:
+        raise Exception
+except:
+    print('you are gay')
+else:
+    print(nigga)
+finally:
+    print('brrr skibidi bop')
+
+
+num=1000
+while num>0:
+    num-=7
+    print(num)
 
     
 
